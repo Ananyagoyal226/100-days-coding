@@ -1,4 +1,4 @@
-
+// 	Add two matrices.
 
 #include <stdio.h>
 
