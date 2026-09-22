@@ -3,7 +3,7 @@
 
 int main()
 {
-    int a[100], n, i, value, pos;
+    int a[100], n, i, value, pos;    /*pos means position(index)= the index where the new element needs to be inserted*/
 
     printf("Enter number of elements: ");
     scanf("%d", &n);
