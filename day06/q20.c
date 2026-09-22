@@ -1,4 +1,4 @@
-// Q-6 reverse an array without taking extra space
+// Q-6 reverse an array without taking extra space.
 #include <stdio.h>
 
 int main()
