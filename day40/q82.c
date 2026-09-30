@@ -13,7 +13,7 @@ int main()
     printf("Enter rows and columns of second matrix: ");
     scanf("%d %d", &r2, &c2);
 
-    if(c1 != r2)
+    if(c1 != r2)  /*Check whether multiplication is possible*/
     {
         printf("Matrix multiplication is not possible");
         return 0;
@@ -38,7 +38,7 @@ int main()
             scanf("%d", &b[i][j]);
         }
     }
-
+    // // Matrix multiplication
     for(i = 0; i < r1; i++)
     {
         for(j = 0; j < c2; j++)
